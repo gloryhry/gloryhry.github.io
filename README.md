@@ -1,27 +1,45 @@
-# Jekyll Example
+# jekyll-uno
 
-This directory is a brief example of a [Jekyll](https://jekyllrb.com/) site that can be deployed with Vercel and zero configuration.
+Jekyll-Uno - a minimal, responsive theme for Jekyll based on the [Uno](https://github.com/daleanthony/Uno) theme for Ghost.
 
-## Deploy Your Own
+> :warning:
+  This theme requires ruby and rubygems installed
 
-Deploy your own Jekyll project with Vercel.
+### Features
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vercel/vercel/tree/master/examples/jekyll)
+* Clean layout
+* Resposive layout
+* Pagination
+* Syntax highlighting
+* Social links
+* Tags listing page
+* Categories listing page
+* Google Analytics integration
+* Disqus integration
 
-_Live Example: https://jekyll.now-examples.now.sh_
+---
 
-### How We Created This Example
+### Install and Test
 
-To get started with Jekyll for deployment with Vercel, you can use the [Jekyll CLI](https://jekyllrb.com/docs/usage/) to initialize the project:
+1. Download or clone repo `git clone git@github.com:joshgerdes/jekyll-uno.git`
+2. Enter the folder: `cd jekyll-uno/`
+3. If you don't have bundler installed: `gem install bundler`
+3. Install Ruby gems: `bundle install`
+4. Start Jekyll server: `bundle exec jekyll serve --watch`
 
-```shell
-$ jekyll new my-blog
-```
+Access via: [http://localhost:4000/jekyll-uno/](http://localhost:4000/jekyll-uno/)
 
-### Deploying From Your Terminal
+---
 
-You can deploy your new Jekyll project with a single command from your terminal using [Vercel CLI](https://vercel.com/download):
+### Demo and Download
 
-```shell
-$ vercel
-```
+[Demo](http://joshgerdes.com/jekyll-uno/)
+[Download](https://github.com/joshgerdes/jekyll-uno/archive/master.zip)
+
+![jekyll-uno - free Jekyll theme](/screenshot.png)
+
+---
+
+### Copyright and license
+
+It is under [the MIT license](/LICENSE).
