@@ -37,7 +37,7 @@ author:
   type      : "person" # "person" (default), "organization"
   name      : Glory
   url       : gloryhry.ml
-  avatar    :  # path or url of avatar image (square)
+  avatar    : /assets/panda-mine.png # path or url of avatar image (square)
   bio       : 西安交通大学的研究生一枚。
   email     : gloryhry@stu.xjtu.edu.cn
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
