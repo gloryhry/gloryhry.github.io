@@ -359,7 +359,8 @@ java -jar /opt/atlassian/atlassian-agent.jar -m email@xxxx -n USERNAME -p jira -
 ## Confluence安装与破解
 
 ### 下载Confluence
-    打开[Confluence网页](https://www.atlassian.com/zh/software/confluence/pricing?tab=self-managed)，下载[自托管的服务器软件](https://product-downloads.atlassian.com/software/confluence/downloads/atlassian-confluence-7.4.6-x64.bin)。
+    
+打开[Confluence网页](https://www.atlassian.com/zh/software/confluence/pricing?tab=self-managed)，下载[自托管的服务器软件](https://product-downloads.atlassian.com/software/confluence/downloads/atlassian-confluence-7.4.6-x64.bin)。
 
 ### 赋予权限并安装
 
