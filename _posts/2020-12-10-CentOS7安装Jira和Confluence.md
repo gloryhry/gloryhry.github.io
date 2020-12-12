@@ -42,24 +42,43 @@ key: CentOS7instalJiraAndConfluence
 
 启动电脑后选第一项进入系统安装CentOS。
 选择语言
+
 ![](https://cdn.jsdelivr.net/gh/gloryhry/imghosting/img/20201210155047.png)
+
 设置时区
+
 ![](https://cdn.jsdelivr.net/gh/gloryhry/imghosting/img/20201210155127.png)
+
 安装时选择需要安装的软件：
+
 ![](https://cdn.jsdelivr.net/gh/gloryhry/imghosting/img/20201210154804.png)
+
 选择Server with Gui，然后在右边选择带Java Platform
+
 ![](https://cdn.jsdelivr.net/gh/gloryhry/imghosting/img/20201210154959.png)
+
 选择安装位置
+
 ![](https://cdn.jsdelivr.net/gh/gloryhry/imghosting/img/20201210155220.png)
+
 设置主机名和网卡信息
+
 ![](https://cdn.jsdelivr.net/gh/gloryhry/imghosting/img/20201210155317.png)
+
 开始安装
+
 ![](https://cdn.jsdelivr.net/gh/gloryhry/imghosting/img/20201210155352.png)
+
 设置root密码
+
 ![](https://cdn.jsdelivr.net/gh/gloryhry/imghosting/img/20201210155422.png)
+
 设置User Creation创建管理员账号
+
 ![](https://cdn.jsdelivr.net/gh/gloryhry/imghosting/img/20201210155507.png)
+
 ![](https://cdn.jsdelivr.net/gh/gloryhry/imghosting/img/20201210155548.png)
+
 安装完成后重启进入CentOS7系统
 
 ### CentOS7更换国内源
@@ -124,6 +143,7 @@ wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.163.com/.help/CentOS7-B
     ```
 
     解压后得到如下文件：
+    
 ![](https://cdn.jsdelivr.net/gh/gloryhry/imghosting/img/%E6%88%AA%E5%B1%8F2020-12-10%20%E4%B8%8B%E5%8D%884.22.44.png)
 
 5. 安装mysql
@@ -276,6 +296,7 @@ wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.163.com/.help/CentOS7-B
 ### 配置Jira
 
 - 浏览器访问 [127.0.0.1:8080](127.0.0.1:8080)
+
 ![](https://cdn.jsdelivr.net/gh/gloryhry/imghosting/img/%E6%88%AA%E5%B1%8F2020-12-10%20%E4%B8%8B%E5%8D%885.55.31.png)
 
 ![](https://cdn.jsdelivr.net/gh/gloryhry/imghosting/img/%E6%88%AA%E5%B1%8F2020-12-10%20%E4%B8%8B%E5%8D%885.56.48.png)
@@ -297,9 +318,13 @@ java -jar /opt/atlassian/atlassian-agent.jar -m email@xxx -n USERNAME -p jc -o h
 参数说明：
 
 -m：指定邮箱
+
 -n：授权给的用户
+
 -p：需要获取key的程序, jira为Jira Software;jc为jira Core的缩写
+
 -o：jira的url地址
+
 -s：服务器ID
 
 ![](https://cdn.jsdelivr.net/gh/gloryhry/imghosting/img/%E6%88%AA%E5%B1%8F2020-12-10%20%E4%B8%8B%E5%8D%886.06.57.png)
