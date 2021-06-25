@@ -7,7 +7,7 @@ header:
 article_header:
   type: cover
   image:
-    src: /docs/assets/images/car_image.png
+    src: https://cdn.jsdelivr.net/gh/gloryhry/imghosting/img/car_image.png
 ---
 
 # Endeavour Radar Dataset
