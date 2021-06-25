@@ -8,6 +8,8 @@ article_header:
   type: cover
   image:
     src: https://cdn.jsdelivr.net/gh/gloryhry/imghosting/img/head.png
+tags: Radar Dataset SLAM 毫米波雷达 数据集
+key: EndeavourRadarDataset
 ---
 
 # Endeavour Radar Dataset
