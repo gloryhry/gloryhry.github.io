@@ -17,4 +17,14 @@ key: reinstallWindowsAndSetupWSL2
 ## 安装Windows
 
   1. 插入安装U盘后，开机进入BIOS，选从U盘启动。
-  2. 
+  2. 进入windows的安装流程。
+  3. 等待windows安装完成。
+  4. 激活windows，可参考[KMS激活](https://github.com/netnr/kms)。
+
+## 安装docker和WSL2
+
+  1. [可选] 下载安装[Docker Desktop for Windows](https://docs.docker.com/desktop/install/windows-install/)
+  2. 安装WSL2，可参考[Windows官方教程](https://learn.microsoft.com/zh-cn/windows/wsl/install)
+  3. `wsl --list --online`可查看可用发行版列表，`wsl --install -d <DistroName>`以安装一个发行版.
+  4. 终端中输入`wsl`即可进入linux发行版
+     
